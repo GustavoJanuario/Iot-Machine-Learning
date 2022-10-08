@@ -35,7 +35,7 @@ def ouvir_microfone():
         # retorna a frase pronunciada
         print('Você disse: ' + frase)
 
-    # se não recoheceu o padrão de fal, exibe a mensagem
+    # se não recoheceu o padrão de fala, exibe a mensagem
     except sr.UnknownValueError:
         print('Não entendi')
 
